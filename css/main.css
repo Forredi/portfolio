@@ -307,7 +307,39 @@ template {
   display: none;
 }
 
-.header {
-  height: 100px;
+body {
   background-color: #1b1a17;
+  font-family: "Inconsolata", monospace;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20.5px 0;
+}
+
+.menu__list {
+  display: flex;
+  column-gap: 64px;
+}
+
+.anchor-link {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f0e3ca;
+  text-decoration: none;
+  text-transform: capitalize;
 }/*# sourceMappingURL=main.css.map */
