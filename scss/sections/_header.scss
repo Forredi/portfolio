@@ -32,6 +32,12 @@
     color: $colorText;
     text-decoration: none;
     text-transform: capitalize;
-
+    transition: 0.6s;
 }
 
+.anchor-link:hover {
+    color: $contextColor;
+}
+
+
+    
