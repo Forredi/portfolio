@@ -347,4 +347,16 @@ ul, ol, li {
 
 .anchor-link:hover {
   color: #ffea00;
+}
+
+.main-title {
+  color: #ffea00;
+}
+
+.main-subtitle {
+  color: #f0e3ca;
+}
+
+.hero__discription {
+  color: #f0e3ca;
 }/*# sourceMappingURL=main.css.map */
