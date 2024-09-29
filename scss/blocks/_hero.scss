@@ -1,14 +1,22 @@
 .hero{
-
+    max-width: 448px;
 }
 .main-title{
-    color: #ffea00;
-    
+    color: $contextColor;
+    font-size: 64px;
+    font-weight: 900;
+    margin: 0 0 8px 0;
 }
 .main-subtitle{
-    color: #f0e3ca;
+    color: $colorText;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
 }
 .hero__discription{
-    color: #f0e3ca;
+    color: $colorText;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
 }
 

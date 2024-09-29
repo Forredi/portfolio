@@ -3,6 +3,9 @@
 @import "./base/variables.scss";
 @import "./base/base";
 
+// blocks
+@import "./blocks/hero";
+@import "./blocks/avatar";
+
 // section
 @import "./sections/header";
-@import "./blocks/hero";
