@@ -1,14 +1,19 @@
 .about {
-    color: white;
-    width: 1440px;
-    height: 229px;
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        padding: 64px 0;
+    }
+    &__icon {
 
-}
-
-.info{
-    
-}
-
-.about2{
-    
+    }
+    &__description {
+        max-width: 904px;
+        color: $colorText;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1.05;
+    }
 }

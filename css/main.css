@@ -416,8 +416,17 @@ ul, ol, li {
   max-width: 1215px;
 }
 
-.about {
-  color: white;
-  width: 1440px;
-  height: 229px;
+.about__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 64px 0;
+}
+.about__description {
+  max-width: 904px;
+  color: #f0e3ca;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.05;
 }/*# sourceMappingURL=main.css.map */
