@@ -1,0 +1,5 @@
+@mixin hoverColorText($color) {
+    &:hover {
+        color: $color;
+    }
+}
